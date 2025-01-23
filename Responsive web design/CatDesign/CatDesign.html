@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta a largura da página para o tamanho do dispositivo -->
+    <meta name="description" content="Responsive Web Design"> <!-- //Descrição da página-->
+    <title>Cat Photos app</title>
+    <style>
+       
+        p.username {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+    <body>
+        <main>
+        <h1>CatPhotoApp</h1>
+        <h2>Cat Photos</h2>
+        <p>Everyone loves <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">cute cats</a> online!</p>
+        <p>See more <a href="https://www.freecatphotoapp.com">cat photos</a> in our gallery</p>
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back">
+        <img src="../Images/image.png" alt="description"> 
+        <ul> 
+            <li>Things cats love:</li>
+            <li>cat nip</li>
+            <li>laser pointers</li>
+            <li>lasagna</li>
+        </ul>
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+        <figure>
+            <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+            <figcaption>Cats <em>love</em> lasagna.</figcaption>
+        </figure>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+            <label><input id="indoor" type="radio"> Indoor</label>
+            <label><input id="outdoor" type="radio"> Outdoor</label>
+            <input type="text" placeholder="cat photo URL" required>
+            <button type="submit">Submit</button>
+            
+            <fieldset>
+            <legend >
+                <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+                <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+                <input id="loving" type="checkbox"> <label for="loving">Loving</label>
+            </legend>  
+        </fieldset>
+        <fieldset></fieldset>
+            
+          </form>
+    </main>
+    </body>                                            
+</html>

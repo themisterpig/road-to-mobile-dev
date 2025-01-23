@@ -1,0 +1,38 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+html {
+  background-color: hsl(30, 54%, 90%);
+  padding-top: 2%; /* Less padding from the top */
+  padding-left: 20%; /* Example padding on the left */
+  padding-right: 20%; /* Example padding on the right */
+}
+
+body {
+  border-radius: 20px;
+  background-color: white;
+  padding: 5%;
+  margin: 40px auto; /* Larger margins for tablets and up */
+  max-width: 90%; /* Restrict width to 90% of the viewport */
+}
+
+.thumbnail {
+  border-radius: 2%;
+  width: 100%;
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+}
+
+#preparation-time {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 20px;
+  margin-left: 2%;
+  padding: 2%;
+}
