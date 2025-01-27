@@ -36,3 +36,25 @@ h3 {
   margin-left: 2%;
   padding: 2%;
 }
+
+.Values-red {
+  color: hsl(332, 51%, 32%);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+tr {
+  border-bottom: 1px solid #e0e0e0; /* Light gray border separating rows */
+}
+
+td {
+  padding: 10px;
+}
+
+tr:last-child {
+  border-bottom: none; /* Removes the border for the last row */
+}
