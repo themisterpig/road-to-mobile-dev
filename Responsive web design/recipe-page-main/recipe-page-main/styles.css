@@ -5,12 +5,15 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
+body {
+  font-size: 16px;
+}
 html {
   background-color: hsl(30, 54%, 90%);
   padding-top: 2%; /* Less padding from the top */
-  padding-left: 20%; /* Example padding on the left */
-  padding-right: 20%; /* Example padding on the right */
+  padding-left: 30%; /* Example padding on the left */
+  padding-right: 30%; /* Example padding on the right */
+  font-family: "Outfit", sans-serif;
 }
 
 body {
@@ -28,6 +31,14 @@ body {
 
 h3 {
   color: hsl(332, 51%, 32%);
+  font-family: "Young Serif", serif;
+}
+h2 {
+  font-family: "Young Serif", serif;
+  color: hsl(332, 51%, 32%);
+}
+h1 {
+  font-family: "Young Serif", serif;
 }
 
 #preparation-time {
@@ -49,12 +60,36 @@ table {
 
 tr {
   border-bottom: 1px solid #e0e0e0; /* Light gray border separating rows */
+  font-weight: bold;
 }
 
 td {
-  padding: 10px;
+  padding: 2%;
 }
-
+li {
+  padding: 1%;
+}
+li::marker {
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+}
 tr:last-child {
   border-bottom: none; /* Removes the border for the last row */
+}
+
+.Nutrition-table {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+@font-face {
+  font-family: "Young Serif";
+  src: url("./fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap");
 }
